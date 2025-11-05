@@ -12,16 +12,6 @@
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
-<section id="cookies" role="alert">
-  <p>
-    Deze website maaakt gebruikt van cookies om je ervaring te verbeteren.
-    <button onclick="this.parentElement.style.display='none';" 
-            style="margin-left:10px; background:white; color:#FF312E; border:none; border-radius:4px; padding:4px 8px; cursor:pointer;">
-      Sluiten
-    </button>
-  </p>
-</section>
-
 <body>
 
   <header>
@@ -67,5 +57,18 @@
   <footer>
     <p>&copy; 2025 Lopend Door Haarlem</p>
   </footer>
+
+  <section id="cookies" role="alert">
+  <p>
+    Deze website gebruikt cookies om je ervaring te verbeteren.
+    <button onclick="document.getElementById('cookies').style.display='none';"
+            style="margin-left:10px; background:white; color:#FF312E; border:none; border-radius:4px; padding:4px 8px; cursor:pointer;">
+      Sluiten
+    </button>
+  </p>
+</section>
 </body>
+
+
+
 </html>
